@@ -5,14 +5,8 @@
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/especializati/setup-docker-laravel.git my-project
+git clone https://github.com/rodrigoataides/laravel8_PHP7.git my-project
 cd my-project/
-```
-
-
-Alterne para a branch laravel 8.x
-```sh
-git checkout laravel-8
 ```
 
 
@@ -31,7 +25,7 @@ cp .env.example .env
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-APP_NAME=EspecializaTi
+APP_NAME=Aplicação
 APP_URL=http://localhost:8180
 
 DB_CONNECTION=mysql
