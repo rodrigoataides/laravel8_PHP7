@@ -1,6 +1,5 @@
 
-# Setup Docker Para Projetos Laravel
-[Assine a Academy, e Seja VIP!](https://academy.especializati.com.br)
+# Setup Docker Para Projetos Laravel 8 com PHP 7
 
 ### Passo a passo
 Clone Repositório
