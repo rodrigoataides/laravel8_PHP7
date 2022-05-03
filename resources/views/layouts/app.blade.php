@@ -193,12 +193,13 @@
 
 </script>
 
-<body style="background-color: #000;">
+<body>
     <div id="app">
         <nav class="navbar navbar-expand-md shadow-none">
             <div class="container">
                 <a class="navbar-brand text-light" href="{{ url('/') }}">
-                    <img src="{{ asset(env('ASSETS').env('APP_PATH').'imgs/android-icon-36x36.png')}}" class="img-fluid rounded" alt="...">&nbsp;&nbsp;&nbsp;Ilha Burger
+                    {{-- <img src="{{ asset(env('ASSETS').env('APP_PATH').'imgs/android-icon-36x36.png')}}" class="img-fluid rounded" alt="...">&nbsp;&nbsp;&nbsp;Ilha Burger --}}
+                    Nome e imagem do sistema
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
