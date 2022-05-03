@@ -67,6 +67,14 @@ Gerar a key do projeto Laravel
 php artisan key:generate
 ```
 
+Habilitar o Bootstrap Auth para login
+```sh
+composer require laravel/ui
+php artisan ui bootstrap
+php artisan ui bootstrap --auth
+npm install && npm run dev
+```
+
 
 Acesse o projeto
 [http://localhost:8180](http://localhost:8180)
